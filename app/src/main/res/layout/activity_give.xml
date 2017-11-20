@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.40"
+    android:background="#FFFFFFFF"
+    android:gravity="center"
+    android:paddingTop="15dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:src="@drawable/android_hangman_gallows" />
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/android_hangman_head" />
+
+    <ImageView
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:paddingLeft="114dp"
+        android:paddingTop="53dp"
+        android:src="@drawable/android_hangman_body" />
+
+    <ImageView
+        android:id="@+id/arm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="90dp"
+        android:paddingTop="65dp"
+        android:src="@drawable/android_hangman_arm1" />
+
+    <ImageView
+        android:id="@+id/arm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="120dp"
+        android:paddingTop="62dp"
+        android:src="@drawable/android_hangman_arm2" />
+
+    <ImageView
+        android:id="@+id/leg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:paddingLeft="96dp"
+        android:paddingTop="90dp"
+        android:src="@drawable/android_hangman_leg1" />
+
+    <ImageView
+        android:id="@+id/leg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:paddingLeft="120dp"
+        android:paddingTop="90dp"
+        android:src="@drawable/android_hangman_leg2" />
+</RelativeLayout>
